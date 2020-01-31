@@ -1,7 +1,11 @@
 package myFirst;
 
+import org.testng.annotations.Test;
+
 public class FirstJenkin {
-	public static void main(String[] args) {
+	@Test
+	public void JenTest()
+	{
 		System.out.println("Who you are ????");
 	}
 
