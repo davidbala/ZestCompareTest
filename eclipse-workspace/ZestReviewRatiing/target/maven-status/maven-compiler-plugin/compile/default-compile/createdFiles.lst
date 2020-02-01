@@ -1,0 +1,9 @@
+scripts\TripAdvisorTest.class
+generic\WebDriverUtils.class
+generic\FileLib.class
+generic\BaseTest.class
+pages\TripAdvisorHomepage.class
+generic\IAutoConstant.class
+pages\TripAdvisorHotelReviewPage.class
+pages\TripAdvisorHotelListPage.class
+pages\TripAdvisorHotelDetailsPage.class
