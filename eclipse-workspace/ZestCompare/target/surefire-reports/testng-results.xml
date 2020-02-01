@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Price of Product in Amazon :47,900]]>
+    </line>
+    <line>
+      <![CDATA[Price of Product in FlipKart :₹53,999]]>
+    </line>
+    <line>
+      <![CDATA[Amazon is Lesser than FlipKart]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24229" started-at="2020-02-01T19:24:55Z" finished-at="2020-02-01T19:25:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24229" started-at="2020-02-01T19:24:55Z" finished-at="2020-02-01T19:25:19Z">
+      <class name="scripts.PriceComparisonTest">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:scripts.PriceComparisonTest@79b4d0f]" name="OpenApplication" is-config="true" duration-ms="8770" started-at="2020-02-02T00:54:55Z" finished-at="2020-02-02T00:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:scripts.PriceComparisonTest@79b4d0f]" name="configBM" is-config="true" duration-ms="5838" started-at="2020-02-02T00:55:03Z" finished-at="2020-02-02T00:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="priceComparisonTest()[pri:0, instance:scripts.PriceComparisonTest@79b4d0f]" name="priceComparisonTest" duration-ms="9590" started-at="2020-02-02T00:55:09Z" finished-at="2020-02-02T00:55:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Price of Product in Amazon :47,900]]>
+            </line>
+            <line>
+              <![CDATA[Price of Product in FlipKart :₹53,999]]>
+            </line>
+            <line>
+              <![CDATA[Amazon is Lesser than FlipKart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- priceComparisonTest -->
+      </class> <!-- scripts.PriceComparisonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

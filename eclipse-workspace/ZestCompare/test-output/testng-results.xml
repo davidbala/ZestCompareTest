@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Price of Product in Amazon :47,900]]>
+    </line>
+    <line>
+      <![CDATA[Price of Product in FlipKart :₹53,999]]>
+    </line>
+    <line>
+      <![CDATA[Amazon is Lesser than FlipKart]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26265" started-at="2020-02-01T19:26:52Z" finished-at="2020-02-01T19:27:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26265" started-at="2020-02-01T19:26:52Z" finished-at="2020-02-01T19:27:19Z">
+      <class name="scripts.PriceComparisonTest">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:scripts.PriceComparisonTest@58651fd0]" name="OpenApplication" is-config="true" duration-ms="11101" started-at="2020-02-02T00:56:52Z" finished-at="2020-02-02T00:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:scripts.PriceComparisonTest@58651fd0]" name="configBM" is-config="true" duration-ms="5283" started-at="2020-02-02T00:57:04Z" finished-at="2020-02-02T00:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="priceComparisonTest()[pri:0, instance:scripts.PriceComparisonTest@58651fd0]" name="priceComparisonTest" duration-ms="9669" started-at="2020-02-02T00:57:09Z" finished-at="2020-02-02T00:57:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Price of Product in Amazon :47,900]]>
+            </line>
+            <line>
+              <![CDATA[Price of Product in FlipKart :₹53,999]]>
+            </line>
+            <line>
+              <![CDATA[Amazon is Lesser than FlipKart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- priceComparisonTest -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:scripts.PriceComparisonTest@58651fd0]" name="configAC" is-config="true" duration-ms="188" started-at="2020-02-02T00:57:18Z" finished-at="2020-02-02T00:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- scripts.PriceComparisonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
